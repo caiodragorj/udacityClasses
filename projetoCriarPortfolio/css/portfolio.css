@@ -14,14 +14,16 @@
 }
 
 @media screen and (max-width: 480px) {
-.font-awe-icon {
-    margin-left: 39%;
-}}
+	.font-awe-icon {
+	    margin-left: 39%;
+	}
+}
 
 @media screen and (max-width: 480px) {
-.fig-job {
-    margin-top: 11%;
-}}
+	.fig-job {
+	    margin-top: 11%;
+	}
+}
 
 .featured-main {
 	margin-left: 2%;
