@@ -1,40 +1,47 @@
-.title-main{
+.title-main {
 	text-align: right;
 }
-.header-main{
+
+.header-main {
 	border-bottom: solid 1px #d3d3d3;
 	padding-bottom: 1%;
 	margin-bottom: 2%;
 }
-.font-awe-icon{
+
+.font-awe-icon {
     font-size: 60px;
     margin-top: 4%;
 }
-@media screen and (max-width: 480px){
-.font-awe-icon{
+
+@media screen and (max-width: 480px) {
+.font-awe-icon {
     margin-left: 39%;
-}
-}
-@media screen and (max-width: 480px){
-.fig-job{
+}}
+
+@media screen and (max-width: 480px) {
+.fig-job {
     margin-top: 11%;
-}
-}
-.featured-main{
+}}
+
+.featured-main {
 	margin-left: 2%;
 }
-.title-project{
+
+.title-project {
 	font-size: 30px;
 	text-align: center;
 	margin-top: 1.5%;
 }
-.sub-project{
+
+.sub-project {
 	font-size: 16px;
     text-align: center;
 }
-.sub-project>a{
+
+.sub-project > a {
 	color: #000;
 }
-footer{
+
+footer {
 	border-top: solid 1px;
 }
