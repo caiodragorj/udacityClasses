@@ -84,11 +84,6 @@ bio.display = function() {
 };
 bio.display();
 
-for(var i in formattedContactInfo) {
-	$("#topContacts").append(formattedContactInfo[i]);
-	$("#footerContacts").append(formattedContactInfo[i]);
-}
-
 work.display = function() {
 
 	if(work.jobs.length > 0) {
@@ -128,7 +123,7 @@ projects.display = function() {
 			$(".project-entry:last").append(formattedProjectDates);
 			$(".project-entry:last").append(formattedProjectDescription);
 
-			for(img in projects.projects[i].images) {
+			for(var img in projects.projects[i].images) {
 				var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.projects[i].images[img]);
 				$(".project-entry:last").append(formattedProjectImage);
 			}
