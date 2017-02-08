@@ -2,4 +2,4 @@
 ===============================
 
 * Instruções
-Mova o boneco com as setas, não enconste nas baratas, chegue na água antes que as três vidas acabem.
+Mova o boneco com as setas, não encoste nas baratas, chegue na água antes que as três vidas acabem.
